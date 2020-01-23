@@ -70,3 +70,19 @@ kafka-demo/cart/src/main/java/achwie/shop/cart/CartService.java
 13:public class CartService {
 ...
 ```
+
+Send task to background:
+```
+# For example, start vi. Then put to background by pressing [Ctrl]+[Z].
+$ vi
+
+[1]+  Stopped                 vi
+
+# Run some command with vi in the background
+$ ls -l | wc -l
+16
+
+# Bring vi to foreground again with fg
+$ fg
+
+```
