@@ -86,3 +86,7 @@ $ ls -l | wc -l
 $ fg
 
 ```
+
+## Java
+
+Easy maintenance of multiple JDKs and Java related tools on Linux and OSX (gradle, maven, scala, kotlin) with SDKMAN!: https://sdkman.io/
