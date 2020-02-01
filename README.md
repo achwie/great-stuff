@@ -71,9 +71,9 @@ kafka-demo/cart/src/main/java/achwie/shop/cart/CartService.java
 ...
 ```
 
-Send task to background:
+Stop current task and move to background:
 ```
-# For example, start vi. Then put to background by pressing [Ctrl]+[Z].
+# For example, start vi. Then stop task (and put into background) by pressing [Ctrl]+[Z].
 $ vi
 
 [1]+  Stopped                 vi
