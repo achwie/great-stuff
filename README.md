@@ -18,6 +18,16 @@ $ echo '{"foo": "lorem", "bar": "ipsum"}' | python -m json.tool
 }
 ```
 
+Run last command with `!!`:
+```
+$ whoami
+foo
+# Run last command with "!!", in this case "whoami"
+$ sudo !!
+[sudo] password for foo: 
+root
+```
+
 Show active connections:
 ```
 $ netstat -pant
