@@ -16,6 +16,7 @@ $ echo '{"foo": "lorem", "bar": "ipsum"}' | python -m json.tool
     "bar": "ipsum",
     "foo": "lorem"
 }
+
 # or alternatively
 $ echo '{"foo": "lorem", "bar": "ipsum"}' | json_pp
 {
