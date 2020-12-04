@@ -88,6 +88,20 @@ kafka-demo/cart/src/main/java/achwie/shop/cart/CartService.java
 ...
 ```
 
+Find text really, really fast with [ripgrep](https://github.com/BurntSushi/ripgrep):
+```
+$ rg -t java "class CartService"
+kafka-demo/frontend/src/main/java/achwie/shop/cart/CartService.java
+17:public class CartService {
+
+microservices-shop-demo/cart/src/main/java/achwie/hystrixdemo/cart/CartService.java
+13:public class CartService {
+
+microservices-shop-demo/frontend/src/main/java/achwie/hystrixdemo/cart/CartService.java
+17:public class CartService {
+...
+```
+
 Stop current task and move to background:
 ```
 # For example, start vi. Then stop task (and put into background) by pressing [Ctrl]+[Z].
